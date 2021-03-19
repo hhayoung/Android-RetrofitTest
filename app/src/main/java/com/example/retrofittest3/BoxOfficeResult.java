@@ -17,7 +17,7 @@ public class BoxOfficeResult {
     private String yearWeekTime;
     @SerializedName("weeklyBoxOfficeList")
     @Expose
-    private List<WeeklyBoxOfficeList> weeklyBoxOfficeList = null;
+    private List<WeeklyBoxOfficeList> weeklyBoxOfficeList;
 
     public String getBoxofficeType() {
         return boxofficeType;
